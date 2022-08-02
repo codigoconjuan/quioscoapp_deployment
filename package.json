@@ -8,13 +8,25 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "dependencies": {
+    "@prisma/client": "^4.1.1",
+    "axios": "^0.26.1",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-modal": "^3.14.4",
+    "react-toastify": "^8.2.0",
+    "ts-node": "^10.7.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.2",
     "eslint": "8.10.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.8",
+    "prisma": "^4.1.1",
+    "tailwindcss": "^3.0.23"
   }
 }
